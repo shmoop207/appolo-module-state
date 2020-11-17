@@ -1,0 +1,39 @@
+{
+  "name": "@appolo/state",
+  "version": "8.0.0",
+  "description": "appolo state module",
+  "keywords": [
+    "appolo",
+    "state"
+  ],
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@appolo/core": "^8.0.5",
+    "appolo-state-cluster": "^8.0.1",
+    "@appolo/utils": "^8.0.3"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/ioredis": "^4.17.8",
+    "@types/lodash": "^4.14.164",
+    "@types/mocha": "^8.0.3",
+    "@types/node": "^14.14.6",
+    "bluebird": "^3.7.2",
+    "chai": "^4.2.0",
+    "lodash": "^4.17.20",
+    "mocha": "^8.2.1",
+    "supertest": "^6.0.0",
+    "typescript": "^4.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shmoop207/appolo-module-state.git"
+  },
+  "author": {
+    "name": "roman svichar"
+  },
+  "license": "MIT"
+}
